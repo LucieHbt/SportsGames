@@ -1,0 +1,4702 @@
+fileFormatVersion: 2
+guid: 6250327b86f9049b3a63a4dee82286af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: button_base_normal.png
+  - first:
+      213: 21300002
+    second: button_base_locked.png
+  - first:
+      213: 21300004
+    second: button_base_hover.png
+  - first:
+      213: 21300006
+    second: button_base_click.png
+  - first:
+      213: 21300008
+    second: buttons_info_click.png
+  - first:
+      213: 21300010
+    second: button_vscroll_normal.png
+  - first:
+      213: 21300012
+    second: button_vscroll_locked.png
+  - first:
+      213: 21300014
+    second: button_vscroll_hover.png
+  - first:
+      213: 21300016
+    second: button_vscroll_click.png
+  - first:
+      213: 21300018
+    second: button_users_normal.png
+  - first:
+      213: 21300020
+    second: button_users_locked.png
+  - first:
+      213: 21300022
+    second: button_users_hover.png
+  - first:
+      213: 21300024
+    second: button_users_click.png
+  - first:
+      213: 21300026
+    second: button_user_normal.png
+  - first:
+      213: 21300028
+    second: button_user_locked.png
+  - first:
+      213: 21300030
+    second: button_user_hover.png
+  - first:
+      213: 21300032
+    second: button_user_click.png
+  - first:
+      213: 21300034
+    second: button_twitter_normal.png
+  - first:
+      213: 21300036
+    second: button_twitter_locked.png
+  - first:
+      213: 21300038
+    second: button_twitter_hover.png
+  - first:
+      213: 21300040
+    second: button_twitter_click.png
+  - first:
+      213: 21300042
+    second: button_trash_normal.png
+  - first:
+      213: 21300044
+    second: button_trash_locked.png
+  - first:
+      213: 21300046
+    second: button_trash_hover.png
+  - first:
+      213: 21300048
+    second: button_trash_click.png
+  - first:
+      213: 21300050
+    second: button_sound_off_normal.png
+  - first:
+      213: 21300052
+    second: button_sound_off_locked.png
+  - first:
+      213: 21300054
+    second: button_sound_off_hover.png
+  - first:
+      213: 21300056
+    second: button_sound_off_click.png
+  - first:
+      213: 21300058
+    second: button_sound_normal.png
+  - first:
+      213: 21300060
+    second: button_sound_locked.png
+  - first:
+      213: 21300062
+    second: button_sound_hover.png
+  - first:
+      213: 21300064
+    second: button_sound_click.png
+  - first:
+      213: 21300066
+    second: button_shop_normal.png
+  - first:
+      213: 21300068
+    second: button_shop_locked.png
+  - first:
+      213: 21300070
+    second: button_shop_hover.png
+  - first:
+      213: 21300072
+    second: button_shop_click.png
+  - first:
+      213: 21300074
+    second: button_share_normal.png
+  - first:
+      213: 21300076
+    second: button_share_locked.png
+  - first:
+      213: 21300078
+    second: button_share_hover.png
+  - first:
+      213: 21300080
+    second: button_share_click.png
+  - first:
+      213: 21300082
+    second: button_settings_normal.png
+  - first:
+      213: 21300084
+    second: button_settings_locked.png
+  - first:
+      213: 21300086
+    second: button_settings_hover.png
+  - first:
+      213: 21300088
+    second: button_settings_click.png
+  - first:
+      213: 21300090
+    second: button_save_normal.png
+  - first:
+      213: 21300092
+    second: button_save_locked.png
+  - first:
+      213: 21300094
+    second: button_save_hover.png
+  - first:
+      213: 21300096
+    second: button_save_click.png
+  - first:
+      213: 21300098
+    second: button_retry_normal.png
+  - first:
+      213: 21300100
+    second: button_retry_locked.png
+  - first:
+      213: 21300102
+    second: button_retry_hover.png
+  - first:
+      213: 21300104
+    second: button_podium_normal.png
+  - first:
+      213: 21300106
+    second: button_podium_locked.png
+  - first:
+      213: 21300108
+    second: button_podium_hover.png
+  - first:
+      213: 21300110
+    second: button_podium_click.png
+  - first:
+      213: 21300112
+    second: button_plus_normal.png
+  - first:
+      213: 21300114
+    second: button_plus_locked.png
+  - first:
+      213: 21300116
+    second: button_plus_hover.png
+  - first:
+      213: 21300118
+    second: button_plus_click.png
+  - first:
+      213: 21300120
+    second: button_pause_normal.png
+  - first:
+      213: 21300122
+    second: button_pause_locked.png
+  - first:
+      213: 21300124
+    second: button_pause_hover.png
+  - first:
+      213: 21300126
+    second: button_pause_click.png
+  - first:
+      213: 21300128
+    second: button_music_normal.png
+  - first:
+      213: 21300130
+    second: button_music_locked.png
+  - first:
+      213: 21300132
+    second: button_music_hover.png
+  - first:
+      213: 21300134
+    second: button_music_click.png
+  - first:
+      213: 21300136
+    second: button_minus_normal.png
+  - first:
+      213: 21300138
+    second: button_minus_locked.png
+  - first:
+      213: 21300140
+    second: button_minus_hover.png
+  - first:
+      213: 21300142
+    second: button_minus_click.png
+  - first:
+      213: 21300144
+    second: button_menu_normal.png
+  - first:
+      213: 21300146
+    second: button_menu_locked.png
+  - first:
+      213: 21300148
+    second: button_menu_hover.png
+  - first:
+      213: 21300150
+    second: button_menu_click.png
+  - first:
+      213: 21300152
+    second: button_meddal_normal.png
+  - first:
+      213: 21300154
+    second: button_meddal_locked.png
+  - first:
+      213: 21300156
+    second: button_meddal_hover.png
+  - first:
+      213: 21300158
+    second: button_meddal_click.png
+  - first:
+      213: 21300160
+    second: button_like_normal.png
+  - first:
+      213: 21300162
+    second: button_like_locked.png
+  - first:
+      213: 21300164
+    second: button_like_hover.png
+  - first:
+      213: 21300166
+    second: button_like_click.png
+  - first:
+      213: 21300168
+    second: button_insert_normal.png
+  - first:
+      213: 21300170
+    second: button_insert_locked.png
+  - first:
+      213: 21300172
+    second: button_insert_hover.png
+  - first:
+      213: 21300174
+    second: button_insert_click.png
+  - first:
+      213: 21300176
+    second: button_info_normal.png
+  - first:
+      213: 21300178
+    second: button_info_locked.png
+  - first:
+      213: 21300180
+    second: button_info_hover.png
+  - first:
+      213: 21300182
+    second: button_hscroll_normal.png
+  - first:
+      213: 21300184
+    second: button_hscroll_locked.png
+  - first:
+      213: 21300186
+    second: button_hscroll_hover.png
+  - first:
+      213: 21300188
+    second: button_hscroll_click.png
+  - first:
+      213: 21300190
+    second: button_home_normal.png
+  - first:
+      213: 21300192
+    second: button_home_locked.png
+  - first:
+      213: 21300194
+    second: button_home_hover.png
+  - first:
+      213: 21300196
+    second: button_home_click.png
+  - first:
+      213: 21300198
+    second: button_help_normal.png
+  - first:
+      213: 21300200
+    second: button_help_locked.png
+  - first:
+      213: 21300202
+    second: button_help_hover.png
+  - first:
+      213: 21300204
+    second: button_help_click.png
+  - first:
+      213: 21300206
+    second: button_google_normal.png
+  - first:
+      213: 21300208
+    second: button_google_locked.png
+  - first:
+      213: 21300210
+    second: button_google_hover.png
+  - first:
+      213: 21300212
+    second: button_google_click.png
+  - first:
+      213: 21300214
+    second: button_gamepad_normal.png
+  - first:
+      213: 21300216
+    second: button_gamepad_locked.png
+  - first:
+      213: 21300218
+    second: button_gamepad_hover.png
+  - first:
+      213: 21300220
+    second: button_gamepad_click.png
+  - first:
+      213: 21300222
+    second: button_fcbk_normal.png
+  - first:
+      213: 21300224
+    second: button_fcbk_locked.png
+  - first:
+      213: 21300226
+    second: button_fcbk_hover.png
+  - first:
+      213: 21300228
+    second: button_fcbk_click.png
+  - first:
+      213: 21300230
+    second: button_extract_normal.png
+  - first:
+      213: 21300232
+    second: button_extract_locked.png
+  - first:
+      213: 21300234
+    second: button_extract_click.png
+  - first:
+      213: 21300236
+    second: button_exit_normal.png
+  - first:
+      213: 21300238
+    second: button_exit_locked.png
+  - first:
+      213: 21300240
+    second: button_exit_hover.png
+  - first:
+      213: 21300242
+    second: button_exit_click.png
+  - first:
+      213: 21300244
+    second: button_envelop_normal.png
+  - first:
+      213: 21300246
+    second: button_envelop_locked.png
+  - first:
+      213: 21300248
+    second: button_envelop_hover.png
+  - first:
+      213: 21300250
+    second: button_envelop_click.png
+  - first:
+      213: 21300252
+    second: button_empty_small_normal.png
+  - first:
+      213: 21300254
+    second: button_empty_small_locked_2.png
+  - first:
+      213: 21300256
+    second: button_empty_small_locked.png
+  - first:
+      213: 21300258
+    second: button_empty_small_hover.png
+  - first:
+      213: 21300260
+    second: button_empty_small_click.png
+  - first:
+      213: 21300262
+    second: button_data_normal.png
+  - first:
+      213: 21300264
+    second: button_data_locked.png
+  - first:
+      213: 21300266
+    second: button_data_hover.png
+  - first:
+      213: 21300268
+    second: button_data_click.png
+  - first:
+      213: 21300270
+    second: button_cup_normal.png
+  - first:
+      213: 21300272
+    second: button_cup_locked.png
+  - first:
+      213: 21300274
+    second: button_cup_hover.png
+  - first:
+      213: 21300276
+    second: button_cup_click.png
+  - first:
+      213: 21300278
+    second: button_continue_normal.png
+  - first:
+      213: 21300280
+    second: button_continue_locked.png
+  - first:
+      213: 21300282
+    second: button_continue_hover.png
+  - first:
+      213: 21300284
+    second: button_continue_click.png
+  - first:
+      213: 21300286
+    second: button_check_normal.png
+  - first:
+      213: 21300288
+    second: button_check_locked.png
+  - first:
+      213: 21300290
+    second: button_check_hover.png
+  - first:
+      213: 21300292
+    second: button_check_click.png
+  - first:
+      213: 21300294
+    second: button_cancel_normal.png
+  - first:
+      213: 21300296
+    second: button_cancel_locked.png
+  - first:
+      213: 21300298
+    second: button_cancel_hover.png
+  - first:
+      213: 21300300
+    second: button_cancel_click.png
+  - first:
+      213: 21300302
+    second: button_arrow_up_normal.png
+  - first:
+      213: 21300304
+    second: button_arrow_up_locked.png
+  - first:
+      213: 21300306
+    second: button_arrow_up_hover.png
+  - first:
+      213: 21300308
+    second: button_arrow_up_click.png
+  - first:
+      213: 21300310
+    second: button_arrow_right_normal.png
+  - first:
+      213: 21300312
+    second: button_arrow_right_locked.png
+  - first:
+      213: 21300314
+    second: button_arrow_right_hover.png
+  - first:
+      213: 21300316
+    second: button_arrow_right_click.png
+  - first:
+      213: 21300318
+    second: button_arrow_left_normal.png
+  - first:
+      213: 21300320
+    second: button_arrow_left_locked.png
+  - first:
+      213: 21300322
+    second: button_arrow_left_hover.png
+  - first:
+      213: 21300324
+    second: button_arrow_left_click.png
+  - first:
+      213: 21300326
+    second: button_arrow_down_normal.png
+  - first:
+      213: 21300328
+    second: button_arrow_down_locked.png
+  - first:
+      213: 21300330
+    second: button_arrow_down_hover.png
+  - first:
+      213: 21300332
+    second: button_arrow_down_click.png
+  - first:
+      213: 21300334
+    second: button_arrow_1_up_normal.png
+  - first:
+      213: 21300336
+    second: button_arrow_1_up_locked.png
+  - first:
+      213: 21300338
+    second: button_arrow_1_up_hover.png
+  - first:
+      213: 21300340
+    second: button_arrow_1_up_click.png
+  - first:
+      213: 21300342
+    second: button_arrow_1_right_normal.png
+  - first:
+      213: 21300344
+    second: button_arrow_1_right_locked.png
+  - first:
+      213: 21300346
+    second: button_arrow_1_right_hover.png
+  - first:
+      213: 21300348
+    second: button_arrow_1_right_click.png
+  - first:
+      213: 21300350
+    second: button_arrow_1_left_normal.png
+  - first:
+      213: 21300352
+    second: button_arrow_1_left_locked.png
+  - first:
+      213: 21300354
+    second: button_arrow_1_left_hover.png
+  - first:
+      213: 21300356
+    second: button_arrow_1_left_click.png
+  - first:
+      213: 21300358
+    second: button_arrow_1_down_normal.png
+  - first:
+      213: 21300360
+    second: button_arrow_1_down_locked.png
+  - first:
+      213: 21300362
+    second: button_arrow_1_down_hover.png
+  - first:
+      213: 21300364
+    second: button_arrow_1_down_click.png
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: button_base_normal.png
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 956
+        width: 150
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_base_locked.png
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 888
+        width: 150
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_base_hover.png
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 821
+        width: 150
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_base_click.png
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 754
+        width: 150
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttons_info_click.png
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_vscroll_normal.png
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_vscroll_locked.png
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_vscroll_hover.png
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 751
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_vscroll_click.png
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_users_normal.png
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_users_locked.png
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_users_hover.png
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 751
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_users_click.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 686
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_user_normal.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 685
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_user_locked.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 684
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_user_hover.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 683
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_user_click.png
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_twitter_normal.png
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_twitter_locked.png
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_twitter_hover.png
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_twitter_click.png
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 683
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_trash_normal.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 619
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_trash_locked.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 618
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_trash_hover.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 617
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_trash_click.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 616
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_sound_off_normal.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 615
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_sound_off_locked.png
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_sound_off_hover.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_sound_off_click.png
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_sound_normal.png
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_sound_locked.png
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_sound_hover.png
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 615
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_sound_click.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 552
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_shop_normal.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 551
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_shop_locked.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 550
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_shop_hover.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 549
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_shop_click.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 548
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_share_normal.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 547
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_share_locked.png
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_share_hover.png
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_share_click.png
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_settings_normal.png
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_settings_locked.png
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_settings_hover.png
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 614
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_settings_click.png
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 547
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_save_normal.png
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_save_locked.png
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_save_hover.png
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_save_click.png
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_retry_normal.png
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_retry_locked.png
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 614
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_retry_hover.png
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 547
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_podium_normal.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 485
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_podium_locked.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 484
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_podium_hover.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 483
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_podium_click.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 482
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_plus_normal.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 481
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_plus_locked.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 480
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_plus_hover.png
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 479
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_plus_click.png
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 478
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_pause_normal.png
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_pause_locked.png
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_pause_hover.png
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_pause_click.png
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_music_normal.png
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_music_locked.png
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 614
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_music_hover.png
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 546
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_music_click.png
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 479
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_minus_normal.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 418
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_minus_locked.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 417
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_minus_hover.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 416
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_minus_click.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 415
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_menu_normal.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 414
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_menu_locked.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 413
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_menu_hover.png
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 412
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_menu_click.png
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 411
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_meddal_normal.png
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 410
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_meddal_locked.png
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_meddal_hover.png
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_meddal_click.png
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_like_normal.png
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_like_locked.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_like_hover.png
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 614
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_like_click.png
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 546
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_insert_normal.png
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 478
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_insert_locked.png
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 411
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_insert_hover.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 351
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_insert_click.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 350
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_info_normal.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 349
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_info_locked.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 348
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_info_hover.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 347
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_hscroll_normal.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 346
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_hscroll_locked.png
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 345
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_hscroll_hover.png
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 344
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_hscroll_click.png
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 343
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_home_normal.png
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 342
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_home_locked.png
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_home_hover.png
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_home_click.png
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_help_normal.png
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_help_locked.png
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_help_hover.png
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 614
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_help_click.png
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 546
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce305410000000000800000000000000
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_google_normal.png
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 478
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_google_locked.png
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 410
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f305410000000000800000000000000
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_google_hover.png
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 343
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_google_click.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 284
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_gamepad_normal.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 283
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_gamepad_locked.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 282
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_gamepad_hover.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 281
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af305410000000000800000000000000
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_gamepad_click.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 280
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf305410000000000800000000000000
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_fcbk_normal.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 279
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef305410000000000800000000000000
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_fcbk_locked.png
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 278
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00405410000000000800000000000000
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_fcbk_hover.png
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 277
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20405410000000000800000000000000
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_fcbk_click.png
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 276
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40405410000000000800000000000000
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_extract_normal.png
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 275
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60405410000000000800000000000000
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_extract_locked.png
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 274
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80405410000000000800000000000000
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_extract_click.png
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0405410000000000800000000000000
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_exit_normal.png
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0405410000000000800000000000000
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_exit_locked.png
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0405410000000000800000000000000
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_exit_hover.png
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01405410000000000800000000000000
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_exit_click.png
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21405410000000000800000000000000
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_envelop_normal.png
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 614
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41405410000000000800000000000000
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_envelop_locked.png
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 546
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61405410000000000800000000000000
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_envelop_hover.png
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 478
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81405410000000000800000000000000
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_envelop_click.png
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 410
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1405410000000000800000000000000
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_empty_small_normal.png
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 342
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1405410000000000800000000000000
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_empty_small_locked_2.png
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 275
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1405410000000000800000000000000
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_empty_small_locked.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 217
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02405410000000000800000000000000
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_empty_small_hover.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 216
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22405410000000000800000000000000
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_empty_small_click.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 215
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42405410000000000800000000000000
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_data_normal.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 214
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62405410000000000800000000000000
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_data_locked.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 213
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82405410000000000800000000000000
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_data_hover.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 212
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2405410000000000800000000000000
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_data_click.png
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 211
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2405410000000000800000000000000
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_cup_normal.png
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 210
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2405410000000000800000000000000
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_cup_locked.png
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 209
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03405410000000000800000000000000
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_cup_hover.png
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 208
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23405410000000000800000000000000
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_cup_click.png
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 207
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43405410000000000800000000000000
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_continue_normal.png
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 206
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63405410000000000800000000000000
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_continue_locked.png
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83405410000000000800000000000000
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_continue_hover.png
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3405410000000000800000000000000
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_continue_click.png
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3405410000000000800000000000000
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_check_normal.png
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3405410000000000800000000000000
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_check_locked.png
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04405410000000000800000000000000
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_check_hover.png
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 614
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24405410000000000800000000000000
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_check_click.png
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 546
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44405410000000000800000000000000
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_cancel_normal.png
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 478
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64405410000000000800000000000000
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_cancel_locked.png
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 410
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84405410000000000800000000000000
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_cancel_hover.png
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 342
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4405410000000000800000000000000
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_cancel_click.png
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 274
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4405410000000000800000000000000
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_up_normal.png
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 207
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4405410000000000800000000000000
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_up_locked.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 150
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05405410000000000800000000000000
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_up_hover.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 149
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25405410000000000800000000000000
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_up_click.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 148
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45405410000000000800000000000000
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_right_normal.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 147
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65405410000000000800000000000000
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_right_locked.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 146
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85405410000000000800000000000000
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_right_hover.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 145
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5405410000000000800000000000000
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_right_click.png
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 144
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5405410000000000800000000000000
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_left_normal.png
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 143
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5405410000000000800000000000000
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_left_locked.png
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 142
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06405410000000000800000000000000
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_left_hover.png
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 141
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26405410000000000800000000000000
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_left_click.png
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 140
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46405410000000000800000000000000
+      internalID: 21300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_down_normal.png
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 139
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66405410000000000800000000000000
+      internalID: 21300326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_down_locked.png
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 138
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86405410000000000800000000000000
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_down_hover.png
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 954
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6405410000000000800000000000000
+      internalID: 21300330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_down_click.png
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 886
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6405410000000000800000000000000
+      internalID: 21300332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_up_normal.png
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 818
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6405410000000000800000000000000
+      internalID: 21300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_up_locked.png
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 750
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07405410000000000800000000000000
+      internalID: 21300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_up_hover.png
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 682
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27405410000000000800000000000000
+      internalID: 21300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_up_click.png
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 614
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47405410000000000800000000000000
+      internalID: 21300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_right_normal.png
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 546
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67405410000000000800000000000000
+      internalID: 21300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_right_locked.png
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 478
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87405410000000000800000000000000
+      internalID: 21300344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_right_hover.png
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 410
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7405410000000000800000000000000
+      internalID: 21300346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_right_click.png
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 342
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7405410000000000800000000000000
+      internalID: 21300348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_left_normal.png
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 274
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7405410000000000800000000000000
+      internalID: 21300350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_left_locked.png
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 206
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08405410000000000800000000000000
+      internalID: 21300352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_left_hover.png
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 139
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28405410000000000800000000000000
+      internalID: 21300354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_left_click.png
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 83
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48405410000000000800000000000000
+      internalID: 21300356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_down_normal.png
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 82
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68405410000000000800000000000000
+      internalID: 21300358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_down_locked.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 81
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88405410000000000800000000000000
+      internalID: 21300360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_down_hover.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 80
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8405410000000000800000000000000
+      internalID: 21300362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_arrow_1_down_click.png
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 79
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8405410000000000800000000000000
+      internalID: 21300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      button_arrow_1_down_click.png: 21300364
+      button_arrow_1_down_hover.png: 21300362
+      button_arrow_1_down_locked.png: 21300360
+      button_arrow_1_down_normal.png: 21300358
+      button_arrow_1_left_click.png: 21300356
+      button_arrow_1_left_hover.png: 21300354
+      button_arrow_1_left_locked.png: 21300352
+      button_arrow_1_left_normal.png: 21300350
+      button_arrow_1_right_click.png: 21300348
+      button_arrow_1_right_hover.png: 21300346
+      button_arrow_1_right_locked.png: 21300344
+      button_arrow_1_right_normal.png: 21300342
+      button_arrow_1_up_click.png: 21300340
+      button_arrow_1_up_hover.png: 21300338
+      button_arrow_1_up_locked.png: 21300336
+      button_arrow_1_up_normal.png: 21300334
+      button_arrow_down_click.png: 21300332
+      button_arrow_down_hover.png: 21300330
+      button_arrow_down_locked.png: 21300328
+      button_arrow_down_normal.png: 21300326
+      button_arrow_left_click.png: 21300324
+      button_arrow_left_hover.png: 21300322
+      button_arrow_left_locked.png: 21300320
+      button_arrow_left_normal.png: 21300318
+      button_arrow_right_click.png: 21300316
+      button_arrow_right_hover.png: 21300314
+      button_arrow_right_locked.png: 21300312
+      button_arrow_right_normal.png: 21300310
+      button_arrow_up_click.png: 21300308
+      button_arrow_up_hover.png: 21300306
+      button_arrow_up_locked.png: 21300304
+      button_arrow_up_normal.png: 21300302
+      button_base_click.png: 21300006
+      button_base_hover.png: 21300004
+      button_base_locked.png: 21300002
+      button_base_normal.png: 21300000
+      button_cancel_click.png: 21300300
+      button_cancel_hover.png: 21300298
+      button_cancel_locked.png: 21300296
+      button_cancel_normal.png: 21300294
+      button_check_click.png: 21300292
+      button_check_hover.png: 21300290
+      button_check_locked.png: 21300288
+      button_check_normal.png: 21300286
+      button_continue_click.png: 21300284
+      button_continue_hover.png: 21300282
+      button_continue_locked.png: 21300280
+      button_continue_normal.png: 21300278
+      button_cup_click.png: 21300276
+      button_cup_hover.png: 21300274
+      button_cup_locked.png: 21300272
+      button_cup_normal.png: 21300270
+      button_data_click.png: 21300268
+      button_data_hover.png: 21300266
+      button_data_locked.png: 21300264
+      button_data_normal.png: 21300262
+      button_empty_small_click.png: 21300260
+      button_empty_small_hover.png: 21300258
+      button_empty_small_locked.png: 21300256
+      button_empty_small_locked_2.png: 21300254
+      button_empty_small_normal.png: 21300252
+      button_envelop_click.png: 21300250
+      button_envelop_hover.png: 21300248
+      button_envelop_locked.png: 21300246
+      button_envelop_normal.png: 21300244
+      button_exit_click.png: 21300242
+      button_exit_hover.png: 21300240
+      button_exit_locked.png: 21300238
+      button_exit_normal.png: 21300236
+      button_extract_click.png: 21300234
+      button_extract_locked.png: 21300232
+      button_extract_normal.png: 21300230
+      button_fcbk_click.png: 21300228
+      button_fcbk_hover.png: 21300226
+      button_fcbk_locked.png: 21300224
+      button_fcbk_normal.png: 21300222
+      button_gamepad_click.png: 21300220
+      button_gamepad_hover.png: 21300218
+      button_gamepad_locked.png: 21300216
+      button_gamepad_normal.png: 21300214
+      button_google_click.png: 21300212
+      button_google_hover.png: 21300210
+      button_google_locked.png: 21300208
+      button_google_normal.png: 21300206
+      button_help_click.png: 21300204
+      button_help_hover.png: 21300202
+      button_help_locked.png: 21300200
+      button_help_normal.png: 21300198
+      button_home_click.png: 21300196
+      button_home_hover.png: 21300194
+      button_home_locked.png: 21300192
+      button_home_normal.png: 21300190
+      button_hscroll_click.png: 21300188
+      button_hscroll_hover.png: 21300186
+      button_hscroll_locked.png: 21300184
+      button_hscroll_normal.png: 21300182
+      button_info_hover.png: 21300180
+      button_info_locked.png: 21300178
+      button_info_normal.png: 21300176
+      button_insert_click.png: 21300174
+      button_insert_hover.png: 21300172
+      button_insert_locked.png: 21300170
+      button_insert_normal.png: 21300168
+      button_like_click.png: 21300166
+      button_like_hover.png: 21300164
+      button_like_locked.png: 21300162
+      button_like_normal.png: 21300160
+      button_meddal_click.png: 21300158
+      button_meddal_hover.png: 21300156
+      button_meddal_locked.png: 21300154
+      button_meddal_normal.png: 21300152
+      button_menu_click.png: 21300150
+      button_menu_hover.png: 21300148
+      button_menu_locked.png: 21300146
+      button_menu_normal.png: 21300144
+      button_minus_click.png: 21300142
+      button_minus_hover.png: 21300140
+      button_minus_locked.png: 21300138
+      button_minus_normal.png: 21300136
+      button_music_click.png: 21300134
+      button_music_hover.png: 21300132
+      button_music_locked.png: 21300130
+      button_music_normal.png: 21300128
+      button_pause_click.png: 21300126
+      button_pause_hover.png: 21300124
+      button_pause_locked.png: 21300122
+      button_pause_normal.png: 21300120
+      button_plus_click.png: 21300118
+      button_plus_hover.png: 21300116
+      button_plus_locked.png: 21300114
+      button_plus_normal.png: 21300112
+      button_podium_click.png: 21300110
+      button_podium_hover.png: 21300108
+      button_podium_locked.png: 21300106
+      button_podium_normal.png: 21300104
+      button_retry_hover.png: 21300102
+      button_retry_locked.png: 21300100
+      button_retry_normal.png: 21300098
+      button_save_click.png: 21300096
+      button_save_hover.png: 21300094
+      button_save_locked.png: 21300092
+      button_save_normal.png: 21300090
+      button_settings_click.png: 21300088
+      button_settings_hover.png: 21300086
+      button_settings_locked.png: 21300084
+      button_settings_normal.png: 21300082
+      button_share_click.png: 21300080
+      button_share_hover.png: 21300078
+      button_share_locked.png: 21300076
+      button_share_normal.png: 21300074
+      button_shop_click.png: 21300072
+      button_shop_hover.png: 21300070
+      button_shop_locked.png: 21300068
+      button_shop_normal.png: 21300066
+      button_sound_click.png: 21300064
+      button_sound_hover.png: 21300062
+      button_sound_locked.png: 21300060
+      button_sound_normal.png: 21300058
+      button_sound_off_click.png: 21300056
+      button_sound_off_hover.png: 21300054
+      button_sound_off_locked.png: 21300052
+      button_sound_off_normal.png: 21300050
+      button_trash_click.png: 21300048
+      button_trash_hover.png: 21300046
+      button_trash_locked.png: 21300044
+      button_trash_normal.png: 21300042
+      button_twitter_click.png: 21300040
+      button_twitter_hover.png: 21300038
+      button_twitter_locked.png: 21300036
+      button_twitter_normal.png: 21300034
+      button_user_click.png: 21300032
+      button_user_hover.png: 21300030
+      button_user_locked.png: 21300028
+      button_user_normal.png: 21300026
+      button_users_click.png: 21300024
+      button_users_hover.png: 21300022
+      button_users_locked.png: 21300020
+      button_users_normal.png: 21300018
+      button_vscroll_click.png: 21300016
+      button_vscroll_hover.png: 21300014
+      button_vscroll_locked.png: 21300012
+      button_vscroll_normal.png: 21300010
+      buttons_info_click.png: 21300008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

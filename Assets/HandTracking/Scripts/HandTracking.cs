@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HandTracking : MonoBehaviour
+{
+    public UDPReceive udpReceive;
+    public GameObject[] leftHandPoints;
+    public GameObject[] rightHandPoints;
+    
+    void Update()
+    {
+        string data = udpReceive.data;
+        if (string.IsNullOrEmpty(data)) return;
+        
+        data = data.TrimStart('[').TrimEnd(']');
+        string[] points = data.Split(',');
+
+        if (points.Length == 126)  // 21 points x 3 coordonnées x 2 mains
+        {
+            UpdateHandPoints(leftHandPoints, points, 0);
+            UpdateHandPoints(rightHandPoints, points, 63); // 21 * 3
+        }
+    }
+
+    private void UpdateHandPoints(GameObject[] handPoints, string[] points, int startIndex)
+    {
+        for (int i = 0; i < handPoints.Length; i++)
+        {
+            float x = 7 - float.Parse(points[startIndex + i * 3]) / 100;
+            float y = float.Parse(points[startIndex + i * 3 + 1]) / 100;
+            float z = float.Parse(points[startIndex + i * 3 + 2]) / 100;
+
+            handPoints[i].transform.localPosition = new Vector3(x, y, z);
+        }
+    }
+}
