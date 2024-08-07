@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\views\ui\SoundView.cs" />
+    <Compile Include="Assets\PingScene\PingScoreManager1.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\views\ui\PanelView.cs" />
     <Compile Include="Assets\TennisScript\TennisBall.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\game\MusicMuteBehaviour.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\supergoalkeeper\scripts\behaviour\game\PlayerController.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\managers\LevelManager.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\game\GameBehaviour.cs" />
+    <Compile Include="Assets\KarateScript\Script\KarateManager.cs" />
     <Compile Include="Assets\supergoalkeeper\scripts\behaviour\game\CatcherController.cs" />
     <Compile Include="Assets\SceneManagement.cs" />
     <Compile Include="Assets\GoalKeeperScript\Balls.cs" />
@@ -98,10 +100,15 @@
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\ui\LinkCanvasButton.cs" />
     <Compile Include="Assets\TennisScript\RacketPlayer.cs" />
     <Compile Include="Assets\GoalKeeperScript\SpawnObjects.cs" />
+    <Compile Include="Assets\SceneTransition.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\game\PauseAudioBehaviour.cs" />
+    <Compile Include="Assets\KarateScript\Script\Blade.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\views\ui\StarView.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\game\DestroyOnContact.cs" />
+    <Compile Include="Assets\KarateScript\Script\SpawnFruits.cs" />
+    <Compile Include="Assets\KarateScript\Script\Fruits.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\ui\TouchBehaviour.cs" />
+    <Compile Include="Assets\PingScene\PingBall.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\views\ui\TextView.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\game\SpawnerBehaviour.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\ui\legalBehaviour.cs" />
@@ -109,11 +116,11 @@
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\ui\SocialCanvasButton.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\views\ui\ButtonView.cs" />
     <Compile Include="Assets\GoalKeeperScript\Touch.cs" />
-    <Compile Include="Assets\supergoalkeeper\game_core\plugins\FSMSystem.cs" />
     <Compile Include="Assets\HandTracking\Scripts\LineCode.cs" />
     <Compile Include="Assets\HandTracking\Scripts\HandTracking.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\ui\MusicButtonBehaviour.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\achievementSystem\filters.cs" />
+    <Compile Include="Assets\KarateScript\Script\BombScript.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\behaviour\ui\CanvasButton.cs" />
     <Compile Include="Assets\GoalKeeperScript\particleSortingLayer.cs" />
     <Compile Include="Assets\supergoalkeeper\game_core\scripts\achievementSystem\actionBehaviour.cs" />

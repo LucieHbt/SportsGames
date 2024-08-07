@@ -7,6 +7,8 @@ public class HandTracking : MonoBehaviour
     public UDPReceive udpReceive;
     public GameObject[] leftHandPoints;
     public GameObject[] rightHandPoints;
+    public GameObject leftIndexPoint;
+    public GameObject rightIndexPoint;
     
     void Update()
     {
@@ -20,6 +22,25 @@ public class HandTracking : MonoBehaviour
         {
             UpdateHandPoints(leftHandPoints, points, 0);
             UpdateHandPoints(rightHandPoints, points, 63); // 21 * 3
+
+            // Mettre à jour la position des points des index
+            UpdateIndexPoint(leftIndexPoint, leftHandPoints[8].transform.localPosition);
+            UpdateIndexPoint(rightIndexPoint, rightHandPoints[8].transform.localPosition);
+        }
+        else if (points.Length == 63)  // 21 points x 3 coordonnées x 1 main
+        {
+            // Essayez de déterminer quelle main est présente
+            float xFirstPoint = float.Parse(points[0]);
+            if (xFirstPoint > 0) // Supposition que les coordonnées X positives sont pour la main droite
+            {
+                UpdateHandPoints(rightHandPoints, points, 0);
+                UpdateIndexPoint(rightIndexPoint, rightHandPoints[8].transform.localPosition);
+            }
+            else // Les coordonnées X négatives sont pour la main gauche
+            {
+                UpdateHandPoints(leftHandPoints, points, 0);
+                UpdateIndexPoint(leftIndexPoint, leftHandPoints[8].transform.localPosition);
+            }
         }
     }
 
@@ -33,5 +54,10 @@ public class HandTracking : MonoBehaviour
 
             handPoints[i].transform.localPosition = new Vector3(x, y, z);
         }
+    }
+
+    private void UpdateIndexPoint(GameObject indexPoint, Vector3 position)
+    {
+        indexPoint.transform.localPosition = position;
     }
 }

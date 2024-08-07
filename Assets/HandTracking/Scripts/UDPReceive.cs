@@ -16,6 +16,12 @@ public class UDPReceive : MonoBehaviour
 
     public void Start()
     {
+        // Ensure that the client is initialized only once.
+        if (client == null)
+        {
+            client = new UdpClient(port);
+        }
+
         receiveThread = new Thread(new ThreadStart(ReceiveData));
         receiveThread.IsBackground = true;
         receiveThread.Start();
@@ -23,7 +29,6 @@ public class UDPReceive : MonoBehaviour
 
     private void ReceiveData()
     {
-        client = new UdpClient(port);
         while (startRecieving)
         {
             try
@@ -44,7 +49,32 @@ public class UDPReceive : MonoBehaviour
     private void OnApplicationQuit()
     {
         startRecieving = false;
-        receiveThread.Abort();
-        client.Close();
+
+        if (receiveThread != null && receiveThread.IsAlive)
+        {
+            receiveThread.Abort();
+        }
+
+        if (client != null)
+        {
+            client.Close();
+            client = null;
+        }
+    }
+
+    private void OnDisable()
+    {
+        startRecieving = false;
+
+        if (receiveThread != null && receiveThread.IsAlive)
+        {
+            receiveThread.Abort();
+        }
+
+        if (client != null)
+        {
+            client.Close();
+            client = null;
+        }
     }
 }

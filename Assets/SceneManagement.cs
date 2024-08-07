@@ -7,7 +7,7 @@ public class SceneManagement : MonoBehaviour
 {
     public GameObject gameOverScreen;
     public bool gameIsOver;
-
+    public SceneTransition sceneTransition;
 
     public void GameOver()
     {
@@ -15,23 +15,49 @@ public class SceneManagement : MonoBehaviour
         Time.timeScale = 0; // Pause the game
         gameOverScreen.SetActive(true); // Show the game over screen
     }
+
     public void RestartGame()
     {
         Time.timeScale = 1; // Resume the game
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reload the current scene
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        sceneTransition.TransitionToScene(currentSceneIndex);
     }
+
     public void StartGameSoccer()
     {
-        SceneManager.LoadScene(1);
+        sceneTransition.TransitionToScene(1);
     }
 
     public void StartGameTennis()
     {
-        SceneManager.LoadScene(2);
+        sceneTransition.TransitionToScene(2);
+    }
+
+    public void StartGameKarate()
+    {
+        sceneTransition.TransitionToScene(3);
+    }
+
+    public void StartGamePing()
+    {
+        sceneTransition.TransitionToScene(4);
+    }
+
+    public void StartGameRandomPingOrTennis()
+    {
+        int randomScene = Random.Range(0, 2); // random 0 or 1
+        if (randomScene == 0)
+        {
+            sceneTransition.TransitionToScene(2);
+        }
+        else
+        {
+            sceneTransition.TransitionToScene(4);
+        }
     }
 
     public void GoHomeMenu()
     {
-        SceneManager.LoadScene(0);
+        sceneTransition.TransitionToScene(0);
     }
 }

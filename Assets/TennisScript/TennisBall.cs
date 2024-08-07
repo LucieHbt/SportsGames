@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI; // Ajouté pour utiliser UI Text
 
 public class TennisBall : MonoBehaviour
 {
@@ -14,17 +13,17 @@ public class TennisBall : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip SfxRacket, SfxWalls, SfxLoose;
     private float curSpeed;
-    public TMP_Text countdownText; // Ajouté pour afficher le compte à rebours
+    public TMP_Text countdownText;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();   
-        audioSource = GetComponent<AudioSource>();  
+        rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && Launched == false) 
+        if (Input.GetKeyDown(KeyCode.Space) && Launched == false)
         {
             StartCoroutine(StartCountdownAndLaunch());
         }
@@ -44,15 +43,15 @@ public class TennisBall : MonoBehaviour
 
     void LaunchBall()
     {
-        if (scoreManager.EndGame == true) 
+        if (scoreManager.EndGame == true)
         {
-            SceneManager.LoadScene("TennisScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reload the current scene
         }
 
         curSpeed = speed;
         float x = Random.Range(0, 2) == 0 ? -1 : 1;
-        float y = Random.Range(0, 2) == 0 ? -1 : 1; 
-        
+        float y = Random.Range(0, 2) == 0 ? -1 : 1;
+
         rb.velocity = new Vector2(x, y) * speed;
     }
 
@@ -63,14 +62,17 @@ public class TennisBall : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Collision detected with: " + collision.collider.tag);
         switch (collision.collider.tag)
         {
             case "P1Loose":
                 HandleScoreAndReinit(2);
+                audioSource.PlayOneShot(SfxLoose);
                 break;
 
             case "P2Loose":
                 HandleScoreAndReinit(1);
+                audioSource.PlayOneShot(SfxLoose);
                 break;
 
             case "Walls":
@@ -84,7 +86,7 @@ public class TennisBall : MonoBehaviour
         }
     }
 
-    void HandleScoreAndReinit(int player) // rénitialiser la balle
+    void HandleScoreAndReinit(int player)
     {
         Launched = false;
         rb.velocity = Vector2.zero; // stopper la vitesse
