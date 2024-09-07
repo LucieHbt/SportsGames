@@ -9,10 +9,11 @@ public class KarateManager : MonoBehaviour
 {
     int score;
     int lives;
-    public TextMeshProUGUI scoreText, livesText;
+    int hiScore;
+    public TextMeshProUGUI scoreText, livesText, hiScoreText;
     public GameObject RestartButton, HomeButton, gameOverText;
     public bool EndGame;
-    public AudioClip gameOverSound;
+    public AudioClip gameOverSound, SliceFruit;
     private AudioSource audioSource;
     private bool hasPlayedGameOverSound = false;
 
@@ -24,6 +25,8 @@ public class KarateManager : MonoBehaviour
         gameOverText.SetActive(false);
         score = 0;
         lives = 3;
+        hiScore = PlayerPrefs.GetInt("HighScore", 0);
+        UpdateHiScoreText();
 
         audioSource = GetComponent<AudioSource>();
     }
@@ -32,6 +35,14 @@ public class KarateManager : MonoBehaviour
     {
         score += scorePointsToAdd;
         scoreText.text = score.ToString();
+        audioSource.PlayOneShot(SliceFruit);
+
+        if (score > hiScore)
+        {
+            hiScore = score;
+            PlayerPrefs.SetInt("HighScore", hiScore); // Save the new high score
+            UpdateHiScoreText();
+        }
     }
 
     public void UpdateLives()
@@ -63,5 +74,17 @@ public class KarateManager : MonoBehaviour
         gameOverText.SetActive(true);
         RestartButton.SetActive(true);
         HomeButton.SetActive(true);
+    }
+    
+    private void UpdateHiScoreText()
+    {
+        hiScoreText.text = hiScore.ToString();
+    }
+
+    public void ResetHiScore()
+    {
+        hiScore = 0;
+        PlayerPrefs.SetInt("HighScore", hiScore);
+        UpdateHiScoreText();
     }
 }

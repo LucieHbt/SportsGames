@@ -43,19 +43,6 @@ public class SceneManagement : MonoBehaviour
         sceneTransition.TransitionToScene(4);
     }
 
-    public void StartGameRandomPingOrTennis()
-    {
-        int randomScene = Random.Range(0, 2); // random 0 or 1
-        if (randomScene == 0)
-        {
-            sceneTransition.TransitionToScene(2);
-        }
-        else
-        {
-            sceneTransition.TransitionToScene(4);
-        }
-    }
-
     public void GoHomeMenu()
     {
         sceneTransition.TransitionToScene(0);

@@ -8,7 +8,7 @@ public class PingBall : MonoBehaviour
 {
     public float speed = 10f;
     private Rigidbody2D rb;
-    public TennisScoreManager scoreManager;
+    public PingScoreManager scoreManager;
     private bool Launched = false;
     private AudioSource audioSource;
     public AudioClip SfxRacket, SfxWalls, SfxLoose;

@@ -387,7 +387,7 @@
 "Assets/KarateScript/Script/KarateManager.cs"
 "Assets/KarateScript/Script/SpawnFruits.cs"
 "Assets/PingScene/PingBall.cs"
-"Assets/PingScene/PingScoreManager1.cs"
+"Assets/PingScene/PingScoreManager.cs"
 "Assets/SceneManagement.cs"
 "Assets/SceneTransition.cs"
 "Assets/supergoalkeeper/game_core/scripts/achievementSystem/achievement.cs"

@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverScreen;
     public TextMeshProUGUI finalScoreText;
     public bool gameIsOver;
-    public AudioClip[] playlist; 
+    public AudioClip Touch;
     public AudioSource audioSource;
     public Color targetColor = Color.red; // Color to use for the animation
 
@@ -22,10 +22,12 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         gameIsOver = false;
-        audioSource.clip = playlist[0];
         audioSource.Play();
         hiScore = PlayerPrefs.GetInt("HighScore", 0);
         UpdateHiScoreText();
+
+        audioSource = GetComponent<AudioSource>();
+
     }
 
     public void UpdateTheScore(int scorePointsToAdd)
@@ -45,6 +47,8 @@ public class GameManager : MonoBehaviour
     private void UpdateScoreText()
     {
         scoreText.text = score.ToString();
+        audioSource.PlayOneShot(Touch);
+
     }
     private void UpdateHiScoreText()
     {

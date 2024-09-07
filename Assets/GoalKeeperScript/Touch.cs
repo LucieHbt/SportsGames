@@ -49,7 +49,7 @@ public class Touch : MonoBehaviour
     {
         foreach (GameObject point in handPoints)
         {
-            Collider[] hitColliders = Physics.OverlapSphere(point.transform.position, 0.1f); // Ajustez le rayon selon vos besoins
+            Collider[] hitColliders = Physics.OverlapSphere(point.transform.position, 0.5f); // Ajustez le rayon selon vos besoins
             foreach (var hitCollider in hitColliders)
             {
                 if (hitCollider.CompareTag("Ball"))
