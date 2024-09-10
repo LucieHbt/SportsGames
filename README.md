@@ -15,6 +15,7 @@ SportsGames est un jeu innovant développé sur Unity, utilisant la computer vis
 ## 🚀 Comment commencer ?
 - Clonez ce dépôt.
 - Assurez-vous d'avoir les packages nécessaires installés (opencv-python et cvzone).
+- Lancez le script python main.py
 - Lancez Unity et amusez-vous !
 
 ## 🌟 Contributions
