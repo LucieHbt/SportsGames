@@ -1,7 +1,7 @@
 # SportsGames 🎮🤚
 SportsGames est un jeu innovant développé sur Unity, utilisant la computer vision et la puissance du hand tracking pour capturer et suivre les mouvements des mains, permettant de contrôler les mini jeux de manière naturelle et intuitive.
 
-![GifSportsGames](SportsGames.gif)
+![SportsGames.gif](https://github.com/LucieHbt/SportsGames/blob/main/Assets/SportsGames.gif)
 
 ## 🖐️ Fonctionnalités principales
 - Hand Tracking Précis : Grâce à OpenCV et CvZone, le suivi des mouvements de la main est fluide et précis.
